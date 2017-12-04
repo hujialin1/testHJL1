@@ -22,8 +22,9 @@ public class ApplicationTest extends HttpServlet {
 		if(application.getAttribute("accessNum") != null){
 			accessNum = (int) application.getAttribute("accessNum");
 		}
-		accessNum++;
+		accessNum++
 		application.setAttribute("accessNum", accessNum);
 		resp.getWriter().println("accessNum="+accessNum);
+		
 	}
 }
