@@ -1,0 +1,39 @@
+1.创建本地库
+git init
+2.配置用户信息
+git config --golbal user.name 用户名
+git config --golbal user.email 用户邮箱
+3.配置远程库
+先去github 网站注册账户中新建一个仓库.
+git remote add 组织名称 仓库地址
+4.将本地仓库跟远程仓库合并，并制定远程仓库为master分支
+git push -u 组织名称 master
+5.克隆本地库
+git clone 地址
+6.添加/修改文件
+git add 
+7.查看状态
+git status
+8.提交
+git commit -m '注释内容'
+9.推送
+git push 组织名/地址
+10.从远程库更新代码，默认会执行git merge操作
+git pull
+11.检出
+git checkout 文件名
+12.重置
+git reset HEAD 命令用于取消已缓存的内容.
+13.git diff
+查看修改或增加详细信息
+14.Git mv
+Git mv 命令用于移动或重命名一个文件、目录、软连接。
+15.Git rm
+Git rm 会将条目从缓存区中移除。这与 git reset HEAD 将条目取消缓存是有区别的。 "取消缓存"的意思就是将缓存区恢复为我们做出修改之前的样子。
+默认情况下，git rm file 会将文件从缓存区和你的硬盘中（工作目录）删除。
+如果你要在工作目录中留着该文件，可以使用 git rm --cached：
+
+
+
+sadfasdf
+
